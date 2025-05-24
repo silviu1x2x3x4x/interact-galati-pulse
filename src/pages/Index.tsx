@@ -1,8 +1,21 @@
 
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
+import { useEffect } from "react";
 
 const Index = () => {
+  useEffect(() => {
+    // Scroll automat în jos la încărcarea paginii
+    const timer = setTimeout(() => {
+      window.scrollTo({
+        top: window.innerHeight * 0.3,
+        behavior: 'smooth'
+      });
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800">
       <Navigation />
@@ -33,14 +46,14 @@ const Index = () => {
             Tânăr. Implicat. Schimbă comunitatea.
           </p>
           
-          {/* CTA Button */}
+          {/* CTA Button cu animație descendentă */}
           <Link
             to="/about"
-            className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold text-lg rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl animate-fade-in"
+            className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold text-lg rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl animate-fade-in animate-bounce-down"
           >
             Descoperă
             <svg
-              className="ml-2 w-5 h-5"
+              className="ml-2 w-5 h-5 animate-bounce"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -49,7 +62,7 @@ const Index = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
-                d="M9 5l7 7-7 7"
+                d="M19 14l-7 7m0 0l-7-7m7 7V3"
               />
             </svg>
           </Link>
