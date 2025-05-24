@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { useEffect } from "react";
@@ -15,6 +16,13 @@ const Index = () => {
 
     return () => clearTimeout(timer);
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   return (
     <div className="bg-white">
@@ -94,6 +102,7 @@ const Index = () => {
             </div>
             <Link
               to="/board"
+              onClick={scrollToTop}
               className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold text-lg rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Cunoaște Echipa
@@ -125,6 +134,7 @@ const Index = () => {
             </div>
             <Link
               to="/directors"
+              onClick={scrollToTop}
               className="inline-flex items-center px-8 py-4 bg-green-600 text-white font-semibold text-lg rounded-full hover:bg-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Vezi Directorii
@@ -193,6 +203,7 @@ const Index = () => {
             </div>
             <Link
               to="/projects"
+              onClick={scrollToTop}
               className="inline-flex items-center px-8 py-4 bg-orange-600 text-white font-semibold text-lg rounded-full hover:bg-orange-700 transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Descoperă Proiectele
@@ -281,6 +292,7 @@ const Index = () => {
             
             <Link
               to="/contact"
+              onClick={scrollToTop}
               className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold text-lg rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl"
             >
               Trimite-ne un mesaj
