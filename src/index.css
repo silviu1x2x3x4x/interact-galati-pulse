@@ -110,6 +110,12 @@
     animation: bounceDown 2s ease-in-out infinite;
   }
 
+  .animate-fade-in-scroll {
+    animation: fadeInScroll 1s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
   .line-clamp-3 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -141,6 +147,22 @@
   }
 }
 
+@keyframes fadeInScroll {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrolling pentru întreaga pagină */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -157,4 +179,16 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #a8a8a8;
+}
+
+/* Intersection Observer Animation Trigger */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
