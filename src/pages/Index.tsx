@@ -38,19 +38,47 @@ const Index = () => {
         <div className="text-center z-10 px-4">
           {/* Logo/Stema */}
           <div className="mb-8 animate-fade-in">
-            <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl p-2">
+            <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl p-1 overflow-hidden">
               <img 
                 src="/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png" 
-                alt="Rotary International Logo" 
-                className="w-full h-full object-contain"
+                alt="Rotary Wheel" 
+                className="w-full h-full object-cover scale-150"
+                style={{ 
+                  clipPath: 'circle(35% at 50% 45%)',
+                  transform: 'scale(2.2) translateY(-8px)'
+                }}
               />
             </div>
           </div>
           
-          {/* Main Headline */}
-          <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 animate-fade-in">
-            Interact Galați
-          </h1>
+          {/* Main Headline with Logo */}
+          <div className="flex items-center justify-center gap-4 mb-4">
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-xl p-1 overflow-hidden animate-fade-in">
+              <img 
+                src="/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png" 
+                alt="Rotary Wheel" 
+                className="w-full h-full object-cover"
+                style={{ 
+                  clipPath: 'circle(35% at 50% 45%)',
+                  transform: 'scale(2.2) translateY(-4px)'
+                }}
+              />
+            </div>
+            <h1 className="text-6xl md:text-8xl font-bold text-white animate-fade-in">
+              Interact Galați
+            </h1>
+            <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-xl p-1 overflow-hidden animate-fade-in">
+              <img 
+                src="/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png" 
+                alt="Rotary Wheel" 
+                className="w-full h-full object-cover"
+                style={{ 
+                  clipPath: 'circle(35% at 50% 45%)',
+                  transform: 'scale(2.2) translateY(-4px)'
+                }}
+              />
+            </div>
+          </div>
           
           <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-2xl mx-auto animate-fade-in">
             Tânăr. Implicat. Schimbă comunitatea.
@@ -97,11 +125,15 @@ const Index = () => {
             <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
               {[1, 2, 3, 4, 5].map((i) => (
                 <div key={i} className="animate-fade-in-scroll" style={{ animationDelay: `${i * 0.1}s` }}>
-                  <div className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300 p-2">
+                  <div className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300 p-1 overflow-hidden">
                     <img 
                       src="/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png" 
-                      alt="Rotary International Logo" 
-                      className="w-full h-full object-contain opacity-80"
+                      alt="Rotary Wheel" 
+                      className="w-full h-full object-cover opacity-80"
+                      style={{ 
+                        clipPath: 'circle(35% at 50% 45%)',
+                        transform: 'scale(2.2) translateY(-4px)'
+                      }}
                     />
                   </div>
                   <p className="text-sm md:text-base font-semibold text-gray-800">Membru {i}</p>
