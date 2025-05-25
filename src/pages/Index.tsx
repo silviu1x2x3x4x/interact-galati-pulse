@@ -38,10 +38,12 @@ const Index = () => {
         <div className="text-center z-10 px-4">
           {/* Logo/Stema */}
           <div className="mb-8 animate-fade-in">
-            <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl">
-              <div className="w-24 h-24 bg-gradient-to-br from-blue-600 to-red-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-2xl">IG</span>
-              </div>
+            <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl p-2">
+              <img 
+                src="/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png" 
+                alt="Rotary International Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
           
@@ -95,7 +97,13 @@ const Index = () => {
             <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
               {[1, 2, 3, 4, 5].map((i) => (
                 <div key={i} className="animate-fade-in-scroll" style={{ animationDelay: `${i * 0.1}s` }}>
-                  <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300"></div>
+                  <div className="w-24 h-24 md:w-32 md:h-32 bg-white rounded-full mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300 p-2">
+                    <img 
+                      src="/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png" 
+                      alt="Rotary International Logo" 
+                      className="w-full h-full object-contain opacity-80"
+                    />
+                  </div>
                   <p className="text-sm md:text-base font-semibold text-gray-800">Membru {i}</p>
                 </div>
               ))}
