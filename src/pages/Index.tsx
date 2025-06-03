@@ -34,7 +34,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png)'
+            backgroundImage: 'url(/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png)'
           }}
         />
         
@@ -60,7 +60,7 @@ const Index = () => {
           
           {/* Main Headline with Rotary Logo */}
           <div className="flex items-center justify-center mb-4 animate-fade-in">
-            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center shadow-lg mr-4 p-2">
+            <div className="w-16 h-16 rounded-full flex items-center justify-center shadow-lg mr-4 p-2">
               <img 
                 src="/lovable-uploads/ee0c9ee3-a5e1-454b-b0a1-bc195031a9b9.png" 
                 alt="Rotary Logo" 
