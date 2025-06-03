@@ -116,6 +116,10 @@
     transform: translateY(30px);
   }
 
+  .animate-spin-slow {
+    animation: spinSlow 10s linear infinite;
+  }
+
   .line-clamp-3 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -155,6 +159,15 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
