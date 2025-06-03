@@ -26,8 +26,12 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">IG</span>
+            <div className="w-8 h-8 flex items-center justify-center">
+              <img 
+                src="/lovable-uploads/ee0c9ee3-a5e1-454b-b0a1-bc195031a9b9.png" 
+                alt="Rotary Logo" 
+                className="w-full h-full object-contain animate-spin-slow"
+              />
             </div>
             <span className="font-bold text-gray-900">Interact Galați</span>
           </Link>
