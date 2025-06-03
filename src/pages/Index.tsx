@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { useEffect } from "react";
@@ -34,7 +33,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(/lovable-uploads/b8a94b20-e3b4-4e44-a5a1-38f46400b87d.png)'
+            backgroundImage: 'url(/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png)'
           }}
         />
         
@@ -49,7 +48,7 @@ const Index = () => {
         <div className="text-center z-10 px-4">
           {/* Logo/Rotary Wheel */}
           <div className="mb-8 animate-fade-in">
-            <div className="w-32 h-32 mx-auto bg-white rounded-full flex items-center justify-center shadow-2xl p-4">
+            <div className="w-32 h-32 mx-auto rounded-full flex items-center justify-center shadow-2xl p-4">
               <img 
                 src="/lovable-uploads/ee0c9ee3-a5e1-454b-b0a1-bc195031a9b9.png" 
                 alt="Rotary Logo" 
@@ -58,19 +57,10 @@ const Index = () => {
             </div>
           </div>
           
-          {/* Main Headline with Rotary Logo */}
-          <div className="flex items-center justify-center mb-4 animate-fade-in">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center shadow-lg mr-4 p-2">
-              <img 
-                src="/lovable-uploads/ee0c9ee3-a5e1-454b-b0a1-bc195031a9b9.png" 
-                alt="Rotary Logo" 
-                className="w-full h-full object-contain animate-spin-slow"
-              />
-            </div>
-            <h1 className="text-6xl md:text-8xl font-bold text-white">
-              Interact Galați
-            </h1>
-          </div>
+          {/* Main Headline */}
+          <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 animate-fade-in">
+            Interact Galați
+          </h1>
           
           <p className="text-xl md:text-2xl text-blue-100 mb-12 max-w-2xl mx-auto animate-fade-in">
             Tânăr. Implicat. Schimbă comunitatea.
