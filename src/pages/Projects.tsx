@@ -42,7 +42,7 @@ const Projects = () => {
                   
                   <div className="text-center">
                     <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-2xl font-bold text-green-600">2000+</span>
+                      <span className="text-2xl font-bold text-green-600">30+</span>
                     </div>
                     <h3 className="font-semibold text-gray-900 mb-2">Beneficiari</h3>
                     <p className="text-gray-600">Persoane ajutate prin proiectele noastre</p>
@@ -50,7 +50,7 @@ const Projects = () => {
                   
                   <div className="text-center">
                     <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <span className="text-2xl font-bold text-purple-600">50+</span>
+                      <span className="text-2xl font-bold text-purple-600">80+</span>
                     </div>
                     <h3 className="font-semibold text-gray-900 mb-2">Voluntari</h3>
                     <p className="text-gray-600">Membri activi implicați în proiecte</p>
