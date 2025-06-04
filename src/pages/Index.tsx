@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { useEffect } from "react";
@@ -201,14 +200,14 @@ const Index = () => {
               </div>
               <div className="animate-fade-in-scroll bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.1s' }}>
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-lg font-bold text-green-600">2000+</span>
+                  <span className="text-lg font-bold text-green-600">30+</span>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Beneficiari</h3>
                 <p className="text-gray-600">Persoane ajutate</p>
               </div>
               <div className="animate-fade-in-scroll bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
                 <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl font-bold text-purple-600">50+</span>
+                  <span className="text-2xl font-bold text-purple-600">80+</span>
                 </div>
                 <h3 className="font-semibold text-gray-900 mb-2">Voluntari</h3>
                 <p className="text-gray-600">Membri activi</p>
