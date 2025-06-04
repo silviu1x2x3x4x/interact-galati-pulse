@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { useEffect } from "react";
@@ -105,7 +106,7 @@ const Index = () => {
               </svg>
             </div>
             <blockquote className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight">
-              "Tineretul nu este doar viitorul, ci și prezentul care modelează lumea de mâine."
+              "Service above self – Serviciu mai presus de sine."
             </blockquote>
             <cite className="text-xl text-purple-200 font-medium">
               - Interact Galați
