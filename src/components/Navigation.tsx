@@ -9,6 +9,7 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "ACASĂ" },
+    { path: "/rotary-international", label: "ROTARY" },
     { path: "/board", label: "BOARD" },
     { path: "/directors", label: "DIRECTORI" },
     { path: "/projects", label: "PROIECTE" },
