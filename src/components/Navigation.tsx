@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -9,7 +8,6 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "ACASĂ" },
-    { path: "/rotary-international", label: "ROTARY" },
     { path: "/board", label: "BOARD" },
     { path: "/directors", label: "DIRECTORI" },
     { path: "/projects", label: "PROIECTE" },
