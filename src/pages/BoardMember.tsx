@@ -25,24 +25,15 @@ const BoardMember = () => {
   }
 
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
       <Navigation />
       
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${member.background})` }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
-      </div>
-      
-      {/* Content */}
-      <div className="relative z-10 pt-20 pb-12">
+      <div className="pt-20 pb-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
           <Link
             to="/board"
-            className="inline-flex items-center text-white hover:text-blue-200 transition-colors mb-8"
+            className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors mb-8"
           >
             <ArrowLeft className="mr-2" size={20} />
             Înapoi la Board
@@ -51,11 +42,7 @@ const BoardMember = () => {
           <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <div className="flex-shrink-0">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-48 h-48 object-cover rounded-full shadow-lg"
-                />
+                <div className="w-48 h-48 bg-gray-200 rounded-full shadow-lg"></div>
               </div>
               
               <div className="flex-1 text-center md:text-left">

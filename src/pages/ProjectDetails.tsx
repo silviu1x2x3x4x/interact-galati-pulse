@@ -25,24 +25,15 @@ const ProjectDetails = () => {
   }
 
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-purple-50">
       <Navigation />
       
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${project.background})` }}
-      >
-        <div className="absolute inset-0 bg-black/60"></div>
-      </div>
-      
-      {/* Content */}
-      <div className="relative z-10 pt-20 pb-12">
+      <div className="pt-20 pb-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
           <Link
             to="/projects-list"
-            className="inline-flex items-center text-white hover:text-purple-200 transition-colors mb-8"
+            className="inline-flex items-center text-purple-600 hover:text-purple-800 transition-colors mb-8"
           >
             <ArrowLeft className="mr-2" size={20} />
             Înapoi la Proiecte
@@ -63,11 +54,7 @@ const ProjectDetails = () => {
                 {project.title}
               </h1>
               
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-64 object-cover rounded-xl shadow-lg mb-8"
-              />
+              <div className="w-full h-64 bg-gray-200 rounded-xl shadow-lg mb-8"></div>
             </div>
             
             <div className="prose prose-lg max-w-none">

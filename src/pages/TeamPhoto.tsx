@@ -19,11 +19,7 @@ const TeamPhoto = () => {
           </div>
           
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-            <img
-              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
-              alt="Echipa Interact Galați"
-              className="w-full h-96 md:h-[600px] object-cover"
-            />
+            <div className="w-full h-96 md:h-[600px] bg-gray-200"></div>
             
             <div className="p-8 md:p-12">
               <div className="prose prose-lg max-w-none">

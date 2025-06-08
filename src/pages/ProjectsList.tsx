@@ -35,12 +35,7 @@ const ProjectsList = () => {
                 key={project.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
               >
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                  />
+                <div className="relative h-48 overflow-hidden bg-gray-200">
                   <div className="absolute top-4 left-4">
                     <span className="px-3 py-1 bg-purple-600 text-white text-sm font-medium rounded-full">
                       {project.category}
