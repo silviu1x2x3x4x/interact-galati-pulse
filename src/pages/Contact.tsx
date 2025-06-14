@@ -14,7 +14,7 @@ const Contact = () => {
               Contactează-ne
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Suntem aici pentru tine! Hai să facem împreună diferența în comunitate.
+              Hai să vorbim! Ai feedback pentru proiectele noastre sau întrebări? Suntem aici să te ascultăm.
             </p>
           </div>
           
@@ -85,14 +85,15 @@ const Contact = () => {
                 </div>
                 
                 <div className="mt-12">
-                  <h3 className="text-xl font-semibold mb-4">De ce să te alături nouă?</h3>
-                  <ul className="space-y-2 text-blue-100">
-                    <li>• Dezvoltă-ți abilitățile de leadership</li>
-                    <li>• Fă conexiuni valoroase</li>
-                    <li>• Contribuie la schimbarea pozitivă</li>
-                    <li>• Câștigă experiență practică</li>
-                    <li>• Fii parte dintr-o comunitate activă</li>
-                  </ul>
+                  <h3 className="text-xl font-semibold mb-4">Vrei să te alături nouă?</h3>
+                  <div className="bg-blue-800/30 rounded-lg p-4 mb-4">
+                    <p className="text-blue-100 font-semibold">📅 Perioadele de încriere:</p>
+                    <p className="text-blue-100">• Septembrie</p>
+                    <p className="text-blue-100">• Iarna</p>
+                  </div>
+                  <p className="text-blue-100 text-sm">
+                    În aceste perioade organizăm sesiuni de recrutare pentru noii membri.
+                  </p>
                 </div>
               </div>
               
@@ -139,10 +140,11 @@ const Contact = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                     >
                       <option value="">Selectează subiectul</option>
-                      <option value="membership">Vreau să devin membru</option>
-                      <option value="volunteer">Vreau să volunteer</option>
+                      <option value="membership">Întrebări despre încriere</option>
+                      <option value="feedback">Feedback pentru proiecte</option>
                       <option value="partnership">Propunere de parteneriat</option>
                       <option value="project">Idee de proiect</option>
+                      <option value="general">Întrebare generală</option>
                       <option value="other">Altceva</option>
                     </select>
                   </div>
@@ -156,7 +158,7 @@ const Contact = () => {
                       name="message"
                       rows={5}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors resize-none"
-                      placeholder="Spune-ne cum putem să te ajutăm..."
+                      placeholder="Ai feedback pentru proiectele noastre? Întrebări? Spune-ne ce ai pe suflet..."
                     ></textarea>
                   </div>
                   
