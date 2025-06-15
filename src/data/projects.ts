@@ -1,4 +1,3 @@
-
 export interface Project {
   id: string;
   title: string;
@@ -13,13 +12,13 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "Educație pentru Toți",
-    description: "Program de sprijin educațional pentru copii defavorizați",
-    fullDescription: "Programul 'Educație pentru Toți' este unul dintre proiectele flagship ale Interact Galați, dedicat sprijinirii copiilor din familii cu venituri reduse în parcursul lor educațional. Prin acest proiect, oferim meditații gratuite, materiale școlare și suport emoțional pentru peste 50 de copii din zona Galați. Colaborăm cu școli locale și cu alte organizații pentru a identifica cazurile care au cea mai mare nevoie de sprijin. Impactul programului se reflectă în îmbunătățirea notelor școlare cu 40% și creșterea ratei de promovabilitate la examenele naționale.",
+    title: "1st of June",
+    description: "Sărbătorirea copilăriei prin proiecte speciale în Grădina Publică",
+    fullDescription: "De 1 iunie, Interact Galați a sărbătorit copilăria prin două proiecte speciale în Grădina Publică: „Joy in a Balloon", alături de Asociația Fantasticii Down, și „Plastic pentru Cărți", inițiat de Rotary Galați Donaris. La Joy in a Balloon, copiii s-au bucurat de picturi pe față, baloane modelate, desen cu cretă, cozi împletite și produse handmade, toate în schimbul unei donații pentru Fantasticii Down, APCA Galați și Help Lăbuș. În paralel, Plastic pentru Cărți a încurajat reciclarea – vizitatorii au adus plastic și au plecat cu cărți potrivite pentru toate vârstele. Atmosfera a fost completată de un spectacol cu animăluțe, jocuri și o tombolă cu premii garantate, alături de sprijinul Farmaciilor Myosotis. Mulțumim tuturor celor care au fost alături de noi și au transformat această zi într-o celebrare a copilăriei, educației și implicării!",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1122&q=80",
     background: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    category: "Educație",
-    impact: "50+ copii sprijiniți, 40% îmbunătățire rezultate școlare"
+    category: "Social",
+    impact: "5000 de lei strânși pentru Fantasticii Down"
   },
   {
     id: "2",
