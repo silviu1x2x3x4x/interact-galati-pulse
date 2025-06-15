@@ -1,4 +1,3 @@
-
 import Navigation from "../components/Navigation";
 import { Mail, Instagram } from "lucide-react";
 
@@ -54,8 +53,20 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-center">
-                    <div className="w-6 h-6 mr-4 flex-shrink-0 flex items-center justify-center">
-                      <span className="text-white font-bold text-lg">T</span>
+                    <div className="w-6 h-6 mr-4 flex-shrink-0 text-white">
+                      <svg 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round"
+                        className="w-full h-full"
+                      >
+                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
+                        <path d="M15 9l3 -3"></path>
+                      </svg>
                     </div>
                     <div>
                       <p className="font-semibold">TikTok</p>
