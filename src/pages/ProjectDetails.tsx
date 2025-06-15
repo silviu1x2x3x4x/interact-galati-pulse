@@ -1,4 +1,3 @@
-
 import { useParams, Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { projects } from "../data/projects";
@@ -54,7 +53,7 @@ const ProjectDetails = () => {
                 {project.title}
               </h1>
               
-              <div className="w-full h-64 md:h-72 rounded-xl shadow-lg mb-8 overflow-hidden">
+              <div className="w-full h-80 md:h-96 rounded-xl shadow-lg mb-8 overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}
