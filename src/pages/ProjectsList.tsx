@@ -30,11 +30,20 @@ const ProjectsList = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project) => (
+            {projects.map((project, index) => (
               <div
                 key={project.id}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 relative"
               >
+                {/* Special balloon for first project */}
+                {index === 0 && (
+                  <div className="absolute -top-3 -right-3 z-10">
+                    <div className="bg-red-500 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg transform rotate-12 animate-bounce">
+                      1st of June
+                    </div>
+                  </div>
+                )}
+                
                 <div className="relative h-48 overflow-hidden bg-gray-200">
                   <div className="absolute top-4 left-4">
                     <span className="px-3 py-1 bg-purple-600 text-white text-sm font-medium rounded-full">
