@@ -48,8 +48,8 @@ const ContactSection = ({ scrollToTop }: ContactSectionProps) => {
             </div>
             
             <div className="animate-fade-in-scroll bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
-              <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
-                <span className="text-white font-bold text-2xl">T</span>
+              <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center bg-white rounded-full">
+                <span className="text-blue-600 font-bold text-2xl">T</span>
               </div>
               <h3 className="font-semibold text-white mb-2">TikTok</h3>
               <a 
