@@ -53,20 +53,8 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-center">
-                    <div className="w-6 h-6 mr-4 flex-shrink-0 text-white">
-                      <svg 
-                        viewBox="0 0 24 24" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        strokeWidth="2" 
-                        strokeLinecap="round" 
-                        strokeLinejoin="round"
-                        className="w-full h-full"
-                      >
-                        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
-                        <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
-                        <path d="M15 9l3 -3"></path>
-                      </svg>
+                    <div className="w-6 h-6 mr-4 flex-shrink-0 flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">T</span>
                     </div>
                     <div>
                       <p className="font-semibold">TikTok</p>
@@ -87,7 +75,7 @@ const Contact = () => {
                   <div className="bg-blue-800/30 rounded-lg p-4 mb-4">
                     <p className="text-blue-100 font-semibold">📅 Perioadele de încriere:</p>
                     <p className="text-blue-100">• Septembrie</p>
-                    <p className="text-blue-100">• Iarna</p>
+                    <p className="text-blue-100">• Martie</p>
                   </div>
                   <p className="text-blue-100 text-sm">
                     În aceste perioade organizăm sesiuni de recrutare pentru noii membri.

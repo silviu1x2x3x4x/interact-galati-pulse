@@ -48,20 +48,8 @@ const ContactSection = ({ scrollToTop }: ContactSectionProps) => {
             </div>
             
             <div className="animate-fade-in-scroll bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
-              <div className="w-12 h-12 text-white mx-auto mb-4">
-                <svg 
-                  viewBox="0 0 24 24" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  strokeWidth="2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                  className="w-full h-full"
-                >
-                  <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
-                  <path d="M12 3c7.2 0 9 1.8 9 9s-1.8 9 -9 9s-9 -1.8 -9 -9s1.8 -9 9 -9z"></path>
-                  <path d="M15 9l3 -3"></path>
-                </svg>
+              <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+                <span className="text-white font-bold text-2xl">T</span>
               </div>
               <h3 className="font-semibold text-white mb-2">TikTok</h3>
               <a 
