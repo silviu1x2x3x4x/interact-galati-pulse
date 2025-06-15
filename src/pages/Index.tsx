@@ -1,9 +1,8 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { useEffect } from "react";
 import { Mail, Instagram } from "lucide-react";
-import { boardMembers } from "../data/members";
+import { boardMembers, directors } from "../data/members";
 
 const Index = () => {
   useEffect(() => {
@@ -162,10 +161,11 @@ const Index = () => {
               Experții specializați care conduc departamentele cheie ale organizației
             </p>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className="animate-fade-in-scroll" style={{ animationDelay: `${i * 0.1}s` }}>
+              {directors.map((director, index) => (
+                <div key={director.id} className="animate-fade-in-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
                   <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-green-400 to-emerald-600 rounded-full mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300"></div>
-                  <p className="text-sm md:text-base font-semibold text-gray-800">Director {i}</p>
+                  <p className="text-sm md:text-base font-semibold text-gray-800">{director.name}</p>
+                  <p className="text-xs md:text-sm text-gray-600">{director.position}</p>
                 </div>
               ))}
             </div>
