@@ -45,7 +45,7 @@ export const projects: Project[] = [
     title: "Christmas for Everyone",
     description: "Spectacol caritabil pentru a aduce magia Crăciunului tuturor copiilor",
     fullDescription: "Christmas for Everyone - Dragi spiriduși și spiridușe, Se apropie cea mai frumoasă perioadă a anului, iar magia Crăciunului este despre a dărui și a aduce lumină în sufletele celor din jur. Cu mare bucurie, vă invităm la spectacolul caritabil \"Christmas for Everyone\", organizat de Interact Galați! Când? 13 Decembrie 2024 Ora? 18:00 Unde? Facultatea de Drept și Științe Administrative, sala Aula Magna, Galați Ce vă așteaptă? O seară magică plină de momente artistice, muzică, dans și multe surprize! Cum puteți contribui? Donație minimă: 30 de lei (bilete disponibile la intrare) Veniți alături de noi să împărtășim spiritul Crăciunului și să facem o diferență împreună! Cu drag și nerăbdare, Echipa Interact Galați",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/124bf607-6b07-4cfe-9d28-bd141721dc46.png",
     background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80",
     category: "Social",
     impact: "123 de copii au avut un Crăciun mai frumos"
