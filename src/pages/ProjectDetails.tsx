@@ -54,7 +54,13 @@ const ProjectDetails = () => {
                 {project.title}
               </h1>
               
-              <div className="w-full h-64 bg-gray-200 rounded-xl shadow-lg mb-8"></div>
+              <div className="w-full h-64 rounded-xl shadow-lg mb-8 overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
             
             <div className="prose prose-lg max-w-none">
