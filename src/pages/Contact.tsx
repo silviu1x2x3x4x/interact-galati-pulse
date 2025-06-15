@@ -1,3 +1,4 @@
+
 import Navigation from "../components/Navigation";
 import { Mail, Instagram } from "lucide-react";
 
@@ -53,8 +54,8 @@ const Contact = () => {
                   </div>
                   
                   <div className="flex items-center">
-                    <div className="w-6 h-6 mr-4 flex-shrink-0 bg-white rounded-sm flex items-center justify-center">
-                      <span className="text-blue-600 font-bold text-sm">T</span>
+                    <div className="w-6 h-6 mr-4 flex-shrink-0 flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">T</span>
                     </div>
                     <div>
                       <p className="font-semibold">TikTok</p>
