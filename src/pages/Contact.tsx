@@ -73,12 +73,12 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold">TikTok</p>
                       <a 
-                        href="https://tiktok.com/@interactgalati" 
+                        href="https://www.tiktok.com/@interact.galati?lang=en" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-blue-100 hover:text-white transition-colors"
                       >
-                        @interactgalati
+                        @interact.galati
                       </a>
                     </div>
                   </div>
