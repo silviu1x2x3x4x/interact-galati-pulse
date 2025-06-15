@@ -28,10 +28,10 @@ const ContactSection = ({ scrollToTop }: ContactSectionProps) => {
               <Mail className="w-12 h-12 text-white mx-auto mb-4" />
               <h3 className="font-semibold text-white mb-2">Email</h3>
               <a 
-                href="mailto:contact@interactgalati.ro" 
+                href="mailto:interactclubgalati@gmail.com" 
                 className="text-blue-100 hover:text-white transition-colors"
               >
-                contact@interactgalati.ro
+                interactclubgalati@gmail.com
               </a>
             </div>
             

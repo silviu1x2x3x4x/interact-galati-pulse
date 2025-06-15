@@ -29,10 +29,10 @@ const Contact = () => {
                     <div>
                       <p className="font-semibold">Email</p>
                       <a 
-                        href="mailto:contact@interactgalati.ro" 
+                        href="mailto:interactclubgalati@gmail.com" 
                         className="text-blue-100 hover:text-white transition-colors"
                       >
-                        contact@interactgalati.ro
+                        interactclubgalati@gmail.com
                       </a>
                     </div>
                   </div>
