@@ -13,39 +13,39 @@ export const boardMembers: Member[] = [
     id: "1",
     name: "Lelițu Bianca",
     position: "Președinte",
-    description: "Bianca este o lideră naturală cu o pasiune pentru dezvoltarea comunității. Cu experiență în managementul proiectelor și o viziune clară pentru viitorul clubului, ea coordonează toate activitățile majore și reprezintă Interact Galați în relațiile cu partenerii și organizațiile locale. Ana studiază la Facultatea de Drept și își dorește să contribuie la dezvoltarea unei societăți mai juste.",
+    description: "Bianca este o lideră naturală cu o pasiune pentru dezvoltarea comunității. Cu experiență în managementul proiectelor și o viziune clară pentru viitorul clubului, ea coordonează toate activitățile majore și reprezintă Interact Galați în relațiile cu partenerii și organizațiile locale. Bianca studiază la Facultatea de Drept și își dorește să contribuie la dezvoltarea unei societăți mai juste.",
     image: "https://images.unsplash.com/photo-1494790108755-2616b332c265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     background: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
   },
   {
     id: "2",
-    name: "Mihai Ionescu",
+    name: "Frosă Eduard",
     position: "Vicepreședinte",
-    description: "Mihai este forța motrice din spatele multor inițiative inovatoare ale clubului. Cu un background în tehnologie și o gândire strategică, el sprijină președintele în toate deciziile importante și supervizează implementarea proiectelor tehnologice. Pasionat de educație și dezvoltare durabilă, Mihai contribuie cu idei creative pentru viitorul organizației.",
+    description: "Eduard este forța motrice din spatele multor inițiative inovatoare ale clubului. Cu un background în tehnologie și o gândire strategică, el sprijină președintele în toate deciziile importante și supervizează implementarea proiectelor tehnologice. Pasionat de educație și dezvoltare durabilă, Eduard contribuie cu idei creative pentru viitorul organizației și coordonează echipele de lucru în mod eficient.",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     background: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
   },
   {
     id: "3",
-    name: "Maria Constantinescu",
+    name: "Ducă Jasmine",
     position: "Secretar",
-    description: "Maria este organizatoarea perfectă care se asigură că toate activitățile clubului sunt documentate și planificate în detaliu. Cu abilități excepționale de comunicare și o atenție meticuloasă pentru detalii, ea gestionează correspondența, ține evidența membresii și coordonează logistica evenimentelor. Maria studiază jurnalismul și visează să devină o voce pentru schimbarea socială.",
+    description: "Jasmine este organizatoarea perfectă care se asigură că toate activitățile clubului sunt documentate și planificate în detaliu. Cu abilități excepționale de comunicare și o atenție meticuloasă pentru detalii, ea gestionează correspondența, ține evidența membresii și coordonează logistica evenimentelor. Jasmine studiază jurnalismul și visează să devină o voce pentru schimbarea socială.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     background: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
   },
   {
     id: "4",
-    name: "Alexandru Georgescu",
+    name: "Nicora Robert Alexandru",
     position: "Trezorier",
-    description: "Alexandru gestionează cu responsabilitate toate aspectele financiare ale clubului, de la bugetarea proiectelor la raportarea transparentă a cheltuielilor. Cu o formare în economie și o pasiune pentru antreprenoriat social, el se asigură că fiecare ban este folosit eficient pentru maximizarea impactului în comunitate. Alexandru dezvoltă strategii de fundraising pentru susținerea proiectelor pe termen lung.",
+    description: "Robert Alexandru gestionează cu responsabilitate toate aspectele financiare ale clubului, de la bugetarea proiectelor la raportarea transparentă a cheltuielilor. Cu o formare în economie și o pasiune pentru antreprenoriat social, el se asigură că fiecare ban este folosit eficient pentru maximizarea impactului în comunitate. Robert Alexandru dezvoltă strategii de fundraising pentru susținerea proiectelor pe termen lung.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     background: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80"
   },
   {
     id: "5",
-    name: "Ioana Marinescu",
-    position: "Coordonator Proiecte",
-    description: "Ioana este inima operațională a clubului, coordonând toate proiectele active și asigurându-se că acestea se desfășoară conform planificării. Cu o experiență vastă în managementul de proiect și o rețea largă de contacte în comunitate, ea facilitează colaborările cu alte organizații și monitorizează progresul tuturor inițiativelor. Ioana este studentă la Facultatea de Sociologie și militează pentru incluziunea socială.",
+    name: "Boghean Angel",
+    position: "Vicepreședinte",
+    description: "Angel este un lider dedicat cu o viziune clară pentru dezvoltarea comunității și consolidarea echipei. Cu abilități remarcabile în coordonarea proiectelor și o experiență vastă în managementul de echipe, el sprijină președintele în toate deciziile strategice importante. Angel facilitează colaborările cu organizațiile partenere și monitorizează progresul tuturor inițiativelor majore ale clubului.",
     image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
     background: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
   }
