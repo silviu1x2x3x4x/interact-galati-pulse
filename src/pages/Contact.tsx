@@ -1,6 +1,5 @@
-
 import Navigation from "../components/Navigation";
-import { Mail, Phone, Instagram } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -14,7 +13,7 @@ const Contact = () => {
               Contactează-ne
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Hai să vorbim! Ai feedback pentru proiectele noastre sau întrebări? Suntem aici să te ascultăm.
+              Ai feedback pentru proiectele noastre recente sau alte întrebări? Suntem aici să te ascultăm.
             </p>
           </div>
           
@@ -34,19 +33,6 @@ const Contact = () => {
                         className="text-blue-100 hover:text-white transition-colors"
                       >
                         contact@interactgalati.ro
-                      </a>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center">
-                    <Phone className="w-6 h-6 mr-4 flex-shrink-0" />
-                    <div>
-                      <p className="font-semibold">Telefon</p>
-                      <a 
-                        href="tel:+40740123456" 
-                        className="text-blue-100 hover:text-white transition-colors"
-                      >
-                        +40 740 123 456
                       </a>
                     </div>
                   </div>
