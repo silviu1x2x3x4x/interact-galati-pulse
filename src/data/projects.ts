@@ -1,4 +1,3 @@
-
 export interface Project {
   id: string;
   title: string;
@@ -23,13 +22,13 @@ export const projects: Project[] = [
   },
   {
     id: "2",
-    title: "Verde în Comunitate",
-    description: "Inițiative de protecție a mediului și dezvoltare durabilă",
-    fullDescription: "Proiectul 'Verde în Comunitate' reprezintă angajamentul nostru față de protejarea mediului înconjurător și promovarea unui stil de viață durabil. Organizăm campanii de curățenie în parcuri și pe malul Dunării, plantem copaci în zonele verzi ale orașului și promovăm reciclarea în școli și cartiere. De asemenea, derulăm workshop-uri de educație ecologică pentru sensibilizarea comunității privind schimbările climatice. Până acum am plantat peste 200 de copaci, am colectat 5 tone de deșeuri reciclabile și am educat peste 1000 de persoane despre importanța protecției mediului.",
+    title: "Lego to Impress",
+    description: "Eveniment creativ de construcție LEGO pentru creativitate și imaginație",
+    fullDescription: "LEGO to Impress - Creează, Construiește, Cucerește! Ești gata să-ți pui creativitatea la încercare și să impresionezi printr-o construcție LEGO de excepție? Interact Galați te invită la \"LEGO to Impress\", un eveniment inedit unde imaginația și îndemânarea ta vor fi cheia succesului! CÂND? 21 Martie, ora 17:00 UNDE? ST.UP Pub Donație minimă: 50 lei (cu voucher de consumație 15 lei inclus + setul de Lego). Cum funcționează? Înscrierea se face pe baza link-ului din bio. Participanții vor primi o temă aleasă prin vot. Vor avea la dispoziție piese LEGO pentru a da viață unei construcții spectaculoase. Fiecare participant își poate lua capodopera acasă! Bonus special! În prețul participării este inclus și un voucher de 15 lei pentru băuturi la ST.UP, ca să te bucuri de un refresh perfect după sesiunea de creație! Vino să te distrezi, să îți pui mintea la contribuție și să creezi ceva memorabil! Ești pregătit să impresionezi?",
     image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1113&q=80",
     background: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
-    category: "Mediu",
-    impact: "200+ copaci plantați, 5 tone deșeuri reciclate, 1000+ persoane educate"
+    category: "Social",
+    impact: "30 de participanți mulțumiți"
   },
   {
     id: "3",
