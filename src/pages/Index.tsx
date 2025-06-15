@@ -256,17 +256,6 @@ const Index = () => {
               </div>
               
               <div className="animate-fade-in-scroll bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.1s' }}>
-                <Phone className="w-12 h-12 text-white mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">Telefon</h3>
-                <a 
-                  href="tel:+40740123456" 
-                  className="text-blue-100 hover:text-white transition-colors"
-                >
-                  +40 740 123 456
-                </a>
-              </div>
-              
-              <div className="animate-fade-in-scroll bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
                 <Instagram className="w-12 h-12 text-white mx-auto mb-4" />
                 <h3 className="font-semibold text-white mb-2">Instagram</h3>
                 <a 
@@ -276,6 +265,21 @@ const Index = () => {
                   className="text-blue-100 hover:text-white transition-colors"
                 >
                   @interactgalati
+                </a>
+              </div>
+              
+              <div className="animate-fade-in-scroll bg-white/10 backdrop-blur-sm rounded-xl p-6 hover:bg-white/20 transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
+                <div className="w-12 h-12 mx-auto mb-4 bg-white rounded-sm flex items-center justify-center">
+                  <span className="text-blue-600 font-bold text-xl">T</span>
+                </div>
+                <h3 className="font-semibold text-white mb-2">TikTok</h3>
+                <a 
+                  href="https://www.tiktok.com/@interact.galati?lang=en" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-100 hover:text-white transition-colors"
+                >
+                  @interact.galati
                 </a>
               </div>
             </div>
