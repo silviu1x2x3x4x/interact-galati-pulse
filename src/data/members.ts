@@ -11,9 +11,9 @@ export interface Member {
 export const boardMembers: Member[] = [
   {
     id: "1",
-    name: "Ana Popescu",
+    name: "Lelițu Bianca",
     position: "Președinte",
-    description: "Ana este o lideră naturală cu o pasiune pentru dezvoltarea comunității. Cu experiență în managementul proiectelor și o viziune clară pentru viitorul clubului, ea coordonează toate activitățile majore și reprezintă Interact Galați în relațiile cu partenerii și organizațiile locale. Ana studiază la Facultatea de Drept și își dorește să contribuie la dezvoltarea unei societăți mai juste.",
+    description: "Bianca este o lideră naturală cu o pasiune pentru dezvoltarea comunității. Cu experiență în managementul proiectelor și o viziune clară pentru viitorul clubului, ea coordonează toate activitățile majore și reprezintă Interact Galați în relațiile cu partenerii și organizațiile locale. Ana studiază la Facultatea de Drept și își dorește să contribuie la dezvoltarea unei societăți mai juste.",
     image: "https://images.unsplash.com/photo-1494790108755-2616b332c265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     background: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
   },
