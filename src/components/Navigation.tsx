@@ -10,7 +10,7 @@ const Navigation = () => {
     { path: "/", label: "ACASĂ" },
     { path: "/board", label: "BOARD" },
     { path: "/directors", label: "DIRECTORI" },
-    { path: "/projects", label: "PROIECTE" },
+    { path: "/projects-list", label: "PROIECTE" },
     { path: "/contact", label: "CONTACT" },
   ];
 
