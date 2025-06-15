@@ -1,3 +1,4 @@
+
 export interface Project {
   id: string;
   title: string;
@@ -12,11 +13,11 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "1st of June",
+    title: "1st of June in a Balloon",
     description: "Sărbătorirea copilăriei prin proiecte speciale în Grădina Publică",
     fullDescription: "De 1 iunie, Interact Galați a sărbătorit copilăria prin două proiecte speciale în Grădina Publică: \"Joy in a Balloon\", alături de Asociația Fantasticii Down, și \"Plastic pentru Cărți\", inițiat de Rotary Galați Donaris. La Joy in a Balloon, copiii s-au bucurat de picturi pe față, baloane modelate, desen cu cretă, cozi împletite și produse handmade, toate în schimbul unei donații pentru Fantasticii Down, APCA Galați și Help Lăbuș. În paralel, Plastic pentru Cărți a încurajat reciclarea – vizitatorii au adus plastic și au plecat cu cărți potrivite pentru toate vârstele. Atmosfera a fost completată de un spectacol cu animăluțe, jocuri și o tombolă cu premii garantate, alături de sprijinul Farmaciilor Myosotis. Mulțumim tuturor celor care au fost alături de noi și au transformat această zi într-o celebrare a copilăriei, educației și implicării!",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1122&q=80",
-    background: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    background: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     category: "Social",
     impact: "5000 de lei strânși pentru Fantasticii Down"
   },
@@ -46,27 +47,27 @@ export const projects: Project[] = [
     description: "Spectacol caritabil pentru a aduce magia Crăciunului tuturor copiilor",
     fullDescription: "Christmas for Everyone - Dragi spiriduși și spiridușe, Se apropie cea mai frumoasă perioadă a anului, iar magia Crăciunului este despre a dărui și a aduce lumină în sufletele celor din jur. Cu mare bucurie, vă invităm la spectacolul caritabil \"Christmas for Everyone\", organizat de Interact Galați! Când? 13 Decembrie 2024 Ora? 18:00 Unde? Facultatea de Drept și Științe Administrative, sala Aula Magna, Galați Ce vă așteaptă? O seară magică plină de momente artistice, muzică, dans și multe surprize! Cum puteți contribui? Donație minimă: 30 de lei (bilete disponibile la intrare) Veniți alături de noi să împărtășim spiritul Crăciunului și să facem o diferență împreună! Cu drag și nerăbdare, Echipa Interact Galați",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80",
+    background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80",
     category: "Social",
     impact: "123 de copii au avut un Crăciun mai frumos"
   },
   {
     id: "5",
-    title: "Artă în Cartier",
-    description: "Promovarea culturii și artei în comunitatea locală",
-    fullDescription: "Proiectul 'Artă în Cartier' transformă spațiile publice în galerii de artă la îndemâna tuturor și promovează talentele artistice locale. Organizăm expoziții de stradă, ateliere de pictură pentru copii și spectacole de muzică în parcuri. Colaborăm cu artiști locali pentru realizarea unor murale care înfrumusețează clădirile din cartierele rezidențiale. De asemenea, susținem tinerii artiști prin organizarea de evenimente unde își pot prezenta creațiile. Proiectul a găzduit 12 evenimente culturale, a sprijinit 40 de artiști locali și a adus arta mai aproape de peste 2000 de locuitori.",
-    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    background: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    category: "Cultură",
-    impact: "12 evenimente culturale, 40 artiști sprijiniți, 2000+ participanți"
+    title: "MedClass Workshop Disecție",
+    description: "Workshop practic de disecție pentru elevii pasionați de medicină",
+    fullDescription: "MedClass vine în Galați! V-am pregătit prin această colaborare un WORKSHOP de DISECȚIE ce are misiunea de a oferi elevilor pasionați de medicină, și nu numai, o oportunitate rară de a învăța prin practică. Participanții vor avea ocazia să studieze și să disece organe animale, sub îndrumarea unor specialiști din domeniul medical, pentru a înțelege mai bine anatomia și funcționarea organelor. LOCAȚIE: Liceul Teoretic Emil Racoviță DATA: 8 DECEMBRIE DONAȚIE MINIMĂ: LEI (echipamentul necesar si organul pentru disecat sunt incluse in pret) FORMULARUL DE ÎNSCRIERE se poate găsi în bio (există locuri limitate) Pe lângă cunoștințele teoretice, participanții vor experimenta un cadru de învățare aplicat, cu echipamente moderne și materiale educaționale detaliate. Este o oportunitate de a explora medicina dintr-o perspectivă profundă și practică, pregătindu-i astfel pentru provocările din domeniul sănătății.",
+    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    background: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    category: "Educație",
+    impact: "150+ participanți"
   },
   {
     id: "6",
     title: "Săptămâna Sănătății",
     description: "Campanii de promovare a unui stil de viață sănătos",
     fullDescription: "Inițiativa 'Săptămâna Sănătății' promovează adoptarea unui stil de viață sănătos prin evenimente educative și screeninguri medicale gratuite. Organizăm sesiuni de sport în aer liber, workshop-uri de nutriție și conferințe cu medici specialiști. În parteneriat cu clinici locale, oferim consultații gratuite și teste de sănătate de bază pentru persoanele care nu își permit servicii medicale private. De asemenea, derulăm campanii de donare de sânge și de conștientizare privind prevenția bolilor. Programul nostru a facilitat 500 de consultații gratuite, a organizat 8 campanii de donare de sânge și a educat peste 1500 de persoane despre sănătatea preventivă.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    background: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    background: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
     category: "Sănătate",
     impact: "500 consultații gratuite, 8 campanii donare sânge, 1500+ persoane educate"
   }
