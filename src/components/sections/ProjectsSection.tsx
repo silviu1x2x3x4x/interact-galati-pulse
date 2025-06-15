@@ -19,21 +19,21 @@ const ProjectsSection = ({ scrollToTop }: ProjectsSectionProps) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="animate-fade-in-scroll bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-orange-600">15</span>
+                <span className="text-2xl font-bold text-orange-600">6</span>
               </div>
-              <h3 className="font-semibold text-gray-900 mb-2">Proiecte Active</h3>
-              <p className="text-gray-600">Inițiative în desfășurare</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Proiecte Realizate</h3>
+              <p className="text-gray-600">Inițiative finalizate cu succes</p>
             </div>
             <div className="animate-fade-in-scroll bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.1s' }}>
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-lg font-bold text-green-600">30+</span>
+                <span className="text-lg font-bold text-green-600">200+</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Beneficiari</h3>
               <p className="text-gray-600">Persoane ajutate</p>
             </div>
             <div className="animate-fade-in-scroll bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2" style={{ animationDelay: '0.2s' }}>
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-purple-600">80+</span>
+                <span className="text-2xl font-bold text-purple-600">100+</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Voluntari</h3>
               <p className="text-gray-600">Membri activi</p>

@@ -63,12 +63,12 @@ export const projects: Project[] = [
   },
   {
     id: "6",
-    title: "Săptămâna Sănătății",
-    description: "Campanii de promovare a unui stil de viață sănătos",
-    fullDescription: "Inițiativa 'Săptămâna Sănătății' promovează adoptarea unui stil de viață sănătos prin evenimente educative și screeninguri medicale gratuite. Organizăm sesiuni de sport în aer liber, workshop-uri de nutriție și conferințe cu medici specialiști. În parteneriat cu clinici locale, oferim consultații gratuite și teste de sănătate de bază pentru persoanele care nu își permit servicii medicale private. De asemenea, derulăm campanii de donare de sânge și de conștientizare privind prevenția bolilor. Programul nostru a facilitat 500 de consultații gratuite, a organizat 8 campanii de donare de sânge și a educat peste 1500 de persoane despre sănătatea preventivă.",
+    title: "Pink out Sunday",
+    description: "Campanie de conștientizare a cancerului de sân prin distribuirea de flori roz",
+    fullDescription: "Cu ocazia lunii conștientizării cancerului de sân ne-am reîntors cu unul dintre proiectele noastre preferate, Pink Out Sunday! În românia cancerul de sân reprezintă principala cauză a mortalității la femei. Sunt 7000 de noi cazuri de cancer de sân în fiecare an. 80% din cancerele de sân sunt diagnosticate în varianta avansată. Prin activitatea noastră, ne dorim să motivăm cât mai multe femei să consulte specialiști, oferindu-le în fiecare an câte o floare roz. Culoarea roz simbolizează adesea dragostea, feminitatea și emoțiile pozitive. Prin misiunea noastră ne dorim a evoca și un sentiment de optimism și confort. „Femeile sunt încărcate cu o putere pe care nu și-o cunosc." - Maya Angelou",
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     background: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMJA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
     category: "Sănătate",
-    impact: "500 consultații gratuite, 8 campanii donare sânge, 1500+ persoane educate"
+    impact: "600+ flori împărțite"
   }
 ];
