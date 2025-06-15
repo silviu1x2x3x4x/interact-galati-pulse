@@ -1,3 +1,4 @@
+
 export interface Project {
   id: string;
   title: string;
@@ -55,7 +56,7 @@ export const projects: Project[] = [
     title: "MedClass Workshop Disecție",
     description: "Workshop practic de disecție pentru elevii pasionați de medicină",
     fullDescription: "MedClass vine în Galați! V-am pregătit prin această colaborare un WORKSHOP de DISECȚIE ce are misiunea de a oferi elevilor pasionați de medicină, și nu numai, o oportunitate rară de a învăța prin practică. Participanții vor avea ocazia să studieze și să disece organe animale, sub îndrumarea unor specialiști din domeniul medical, pentru a înțelege mai bine anatomia și funcționarea organelor. LOCAȚIE: Liceul Teoretic Emil Racoviță DATA: 8 DECEMBRIE DONAȚIE MINIMĂ: LEI (echipamentul necesar si organul pentru disecat sunt incluse in pret) FORMULARUL DE ÎNSCRIERE se poate găsi în bio (există locuri limitate) Pe lângă cunoștințele teoretice, participanții vor experimenta un cadru de învățare aplicat, cu echipamente moderne și materiale educaționale detaliate. Este o oportunitate de a explora medicina dintr-o perspectivă profundă și practică, pregătindu-i astfel pentru provocările din domeniul sănătății.",
-    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/9cb22ca6-fb8d-47b5-8839-83e7374999fa.png",
     background: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     category: "Educație",
     impact: "150+ participanți"
