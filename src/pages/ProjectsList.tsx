@@ -62,6 +62,15 @@ const ProjectsList = () => {
                   </div>
                 )}
                 
+                {/* Christmas badge for fourth project */}
+                {index === 3 && (
+                  <div className="absolute -top-3 -right-3 z-10">
+                    <div className="bg-gradient-to-r from-green-400 to-red-500 text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg transform rotate-12 animate-bounce">
+                      🎄 Christmas
+                    </div>
+                  </div>
+                )}
+                
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
                     {project.title}

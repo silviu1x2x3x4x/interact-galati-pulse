@@ -42,13 +42,13 @@ export const projects: Project[] = [
   },
   {
     id: "4",
-    title: "Tech pentru Schimbare",
-    description: "Programe de alfabetizare digitală și inovație tehnologică",
-    fullDescription: "Inițiativa 'Tech pentru Schimbare' aduce tehnologia în serviciul comunității, oferind cursuri gratuite de informatică pentru toate vârstele. Organizăm workshop-uri de programare pentru copii, sesiuni de utilizare a internetului pentru adulți și dezvoltăm aplicații mobile care rezolvă probleme locale. Recent am lansat o aplicație care conectează voluntarii cu persoanele în nevoie din oraș. Programele noastre au format peste 300 de persoane în competențe digitale și au facilitat dezvoltarea a 5 soluții tehnologice inovatoare pentru problemele comunității locale.",
+    title: "Christmas for Everyone",
+    description: "Spectacol caritabil pentru a aduce magia Crăciunului tuturor copiilor",
+    fullDescription: "Christmas for Everyone - Dragi spiriduși și spiridușe, Se apropie cea mai frumoasă perioadă a anului, iar magia Crăciunului este despre a dărui și a aduce lumină în sufletele celor din jur. Cu mare bucurie, vă invităm la spectacolul caritabil \"Christmas for Everyone\", organizat de Interact Galați! Când? 13 Decembrie 2024 Ora? 18:00 Unde? Facultatea de Drept și Științe Administrative, sala Aula Magna, Galați Ce vă așteaptă? O seară magică plină de momente artistice, muzică, dans și multe surprize! Cum puteți contribui? Donație minimă: 30 de lei (bilete disponibile la intrare) Veniți alături de noi să împărtășim spiritul Crăciunului și să facem o diferență împreună! Cu drag și nerăbdare, Echipa Interact Galați",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80",
-    category: "Tehnologie",
-    impact: "300+ persoane formate, 5 soluții tehnologice dezvoltate"
+    category: "Social",
+    impact: "123 de copii au avut un Crăciun mai frumos"
   },
   {
     id: "5",
