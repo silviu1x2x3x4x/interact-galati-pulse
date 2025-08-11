@@ -28,7 +28,6 @@ const DirectorsSection = ({ scrollToTop }: DirectorsSectionProps) => {
           </div>
           <Link
             to="/directors"
-            onClick={scrollToTop}
             className="inline-flex items-center px-8 py-4 bg-green-600 text-white font-semibold text-lg rounded-full hover:bg-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             Vezi Directorii
