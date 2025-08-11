@@ -65,7 +65,7 @@ export const directors: Member[] = [
     name: "Severin Andra-Maria",
     position: "Director PR & Marketing",
     description: "Mă numesc Severin Andra-Maria și ocup funcţia de Director PR al clubului Interact Galați. Încă de la început, am descoperit cât de importantă este munca în echipă și comunicarea. Interact mi-a oferit ocazia să cresc, să învăț și să contribui real la schimbările din comunitate.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: "/lovable-uploads/652a0219-7822-436c-9135-8ec0f28c3870.png",
     background: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1039&q=80"
   },
   {
