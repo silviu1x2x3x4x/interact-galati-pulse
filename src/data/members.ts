@@ -89,7 +89,7 @@ export const directors: Member[] = [
     name: "Balteanu Silviu-Petrica",
     position: "Ofițer IT",
     description: "Hey! Numele meu este Silviu și sunt viitorul ofițer IT al clubului Interact Galați pentru mandatul 2025-2026. Sunt pasionat de tehnologie și mereu deschis la idei noi, cu dorința de a contribui la dezvoltarea clubului și de a-l duce la următorul nivel.",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: "/lovable-uploads/48beed9a-5446-4632-b755-87de0043f9ad.png",
     background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80"
   }
 ];
