@@ -77,27 +77,6 @@ const ProjectDetails = () => {
               </div>
             </div>
             
-            <div className="mt-12 text-center">
-              <Link
-                to="/contact"
-                className="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
-              >
-                Implică-te în proiect
-                <svg
-                  className="ml-2 w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-                </Link>
-            </div>
           </div>
         </div>
       </div>
