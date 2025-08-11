@@ -41,6 +41,7 @@ const ProjectsSection = ({ scrollToTop }: ProjectsSectionProps) => {
           </div>
           <Link
             to="/projects-list"
+            onClick={scrollToTop}
             className="inline-flex items-center px-8 py-4 bg-orange-600 text-white font-semibold text-lg rounded-full hover:bg-orange-700 transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             Descoperă Proiectele

@@ -87,6 +87,7 @@ const ContactSection = ({ scrollToTop }: ContactSectionProps) => {
           
           <Link
             to="/contact"
+            onClick={scrollToTop}
             className="inline-flex items-center px-8 py-4 bg-white text-blue-600 font-semibold text-lg rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             Trimite-ne un mesaj
