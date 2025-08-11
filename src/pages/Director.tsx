@@ -42,13 +42,7 @@ const Director = () => {
           <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl p-8 md:p-12">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
               <div className="flex-shrink-0">
-                <img
-                  src={director.image}
-                  alt={`Fotografie ${director.name}`}
-                  className="w-48 h-48 rounded-full object-cover shadow-lg"
-                  style={director.id === "6" ? { objectPosition: 'center 30%' } : undefined}
-                  loading="lazy"
-                />
+                <div className="w-48 h-48 bg-gray-200 rounded-full shadow-lg"></div>
               </div>
               
               <div className="flex-1 text-center md:text-left">
