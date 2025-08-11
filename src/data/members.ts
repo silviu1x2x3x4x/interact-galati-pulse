@@ -56,7 +56,7 @@ export const directors: Member[] = [
     id: "10",
     name: "David Murărașu",
     position: "Director Logistică",
-    description: "David se asigură că toate evenimentele și proiectele clubului se desfășoară fără probleme din punct de vedere logistic. De la organizarea spațiilor și a echipamentelor până la coordonarea transportului și a meselor, el gestionează toate detaliile practice care fac posibile activitățile noastre. Student la management, David aplică principiile organizaționale în toate aspectele operaționale ale clubului.",
+    description: "Numele este David sau pe poreclă dvd și am funcția de director de logistică. De multe ori am fost întrebat de ce am ales să mă alătur bordului Interact și dacă sunt cu adevărat capabil. Eu sunt aici pentru a demonstra că sunt potrivit pentru această funcție, pentru a arăta că, da, chiar sunt capabil. Îmi doresc să contribui la dezvoltarea acestui club și, în același timp, să mă dezvolt și eu alături de el.",
     image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     background: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
   },
