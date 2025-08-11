@@ -30,7 +30,7 @@ const Directors = () => {
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                     : director.id === "6"
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center 30%' }
-                    : director.id === "7"
+                    : director.id === "7" || director.id === "9"
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                     : undefined
                 }>
