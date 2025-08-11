@@ -33,7 +33,6 @@ const BoardSection = ({ scrollToTop }: BoardSectionProps) => {
           </div>
           <Link
             to="/board"
-            onClick={scrollToTop}
             className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold text-lg rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             Cunoaște Echipa
