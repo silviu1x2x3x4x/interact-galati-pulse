@@ -21,7 +21,7 @@ export const boardMembers: Member[] = [
     id: "2",
     name: "Frosă Eduard",
     position: "Vicepreședinte",
-    description: "Eduard este forța motrice din spatele multor inițiative inovatoare ale clubului. Cu un background în tehnologie și o gândire strategică, el sprijină președintele în toate deciziile importante și supervizează implementarea proiectelor tehnologice. Pasionat de educație și dezvoltare durabilă, Eduard contribuie cu idei creative pentru viitorul organizației și coordonează echipele de lucru în mod eficient.",
+    description: "Sunt Edi, sau Frosă pentru prieteni. Am 18 ani și sunt vicepreședinte (2025-2026) și past HR al clubului Interact Galați. Pentru mine, Interact nu e doar voluntariat, ci locul unde am întâlnit oameni care contează enorm. Am învățat cât de frumos e să conduci o echipă fără a căuta aplauze și cât valorează munca împreună. Cred în puterea unei mâini de oameni de a crea proiecte mari, iar deviza mea pe acest mandat este: „Dacă vrei să mergi departe, mergem împreună.”",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     background: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
   },
