@@ -25,7 +25,7 @@ const Directors = () => {
                 key={director.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
               >
-                <div className="relative h-64 overflow-hidden bg-gray-200">
+                <div className="relative h-64 overflow-hidden bg-gray-200" style={director.id === "10" ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' } : undefined}>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <h3 className="text-xl font-bold">{director.name}</h3>
