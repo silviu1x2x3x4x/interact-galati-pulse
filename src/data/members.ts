@@ -45,7 +45,7 @@ export const boardMembers: Member[] = [
     id: "3",
     name: "Ducă Jasmine",
     position: "Secretar",
-    description: "Jasmine este organizatoarea perfectă care se asigură că toate activitățile clubului sunt documentate și planificate în detaliu. Cu abilități excepționale de comunicare și o atenție meticuloasă pentru detalii, ea gestionează correspondența, ține evidența membresii și coordonează logistica evenimentelor. Jasmine studiază jurnalismul și visează să devină o voce pentru schimbarea socială.",
+    description: "Hey! Numele meu este Jasmine, și sunt secretară pe mandatul 2025-2026 a clubului Interact Galați. Consider ca sunt o persoană deschisă la inițiative, cu o dorință de a aduce acest club la un nivel mai înalt. :)",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     background: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
   }
