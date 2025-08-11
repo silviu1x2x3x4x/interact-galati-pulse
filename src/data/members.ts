@@ -13,7 +13,7 @@ export const boardMembers: Member[] = [
     id: "1",
     name: "Lelițu Bianca",
     position: "Președinte",
-    description: "Bianca este o lideră naturală cu o pasiune pentru dezvoltarea comunității. Cu experiență în managementul proiectelor și o viziune clară pentru viitorul clubului, ea coordonează toate activitățile majore și reprezintă Interact Galați în relațiile cu partenerii și organizațiile locale. Bianca studiază la Facultatea de Drept și își dorește să contribuie la dezvoltarea unei societăți mai juste.",
+    description: "Bună! Sunt Bianca Lelițu și pe acest mandat ocup funcția de Președinte al clubului Interact Galați. Iubesc să fac voluntariat, să aduc un zâmbet pe chipul oamenilor și să contribui la schimbări pozitive în comunitate. Cred cu tărie că Interact te ajută să te dezvolți atât ca voluntar, cât și ca persoană, în viața de zi cu zi, așa cum m-a ajutat și pe mine. Pentru mine, fiecare proiect este o oportunitate de a învăța, de a inspira și de a face lumea puțin mai bună.",
     image: "https://images.unsplash.com/photo-1494790108755-2616b332c265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     background: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80"
   },
