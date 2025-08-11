@@ -173,9 +173,8 @@
 
 /* Smooth scrolling pentru întreaga pagină */
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
   overflow-x: hidden;
-  scroll-restoration: manual;
 }
 
 /* Custom scrollbar */
