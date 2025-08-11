@@ -72,7 +72,7 @@ export const directors: Member[] = [
     id: "7",
     name: "Cimpoaie Ana Maria",
     position: "Director Resurse Umane",
-    description: "Ana Maria se ocupă de recrutarea și integrarea noilor membri, precum și de dezvoltarea personalului existent. Cu abilități remarcabile de empatie și comunicare, ea organizează sesiuni de training, workshop-uri de dezvoltare personală și activități de team building. Ana Maria studiază psihologia și își propune să contribuie la crearea unui mediu de lucru sănătos și productiv în cadrul organizației.",
+    description: "Hey! Eu sunt Ioana, am 16 ani, și pe parcursul acestui mandat am bucuria de a fi directorul de HR al clubului Interact Galați. Mereu mi-a plăcut să lucrez cu și pentru oameni, iar, prin Interact, mi-am găsit locul potrivit, un loc în care să cresc, să învăț și să mă dezvolt. Mereu caut să ajut, să mă implic și să ofer cât pot de mult înapoi comunității care m-a crescut.",
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
     background: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
   },
