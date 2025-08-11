@@ -1,7 +1,15 @@
 
 
 
+import { useEffect } from "react";
+
 const HeroSection = () => {
+  useEffect(() => {
+    // Previne scroll restoration
+    if ('scrollRestoration' in history) {
+      history.scrollRestoration = 'manual';
+    }
+  }, []);
 
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
