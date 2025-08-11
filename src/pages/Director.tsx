@@ -46,6 +46,7 @@ const Director = () => {
                   src={director.image}
                   alt={`Fotografie ${director.name}`}
                   className="w-48 h-48 rounded-full object-cover shadow-lg"
+                  style={director.id === "6" ? { objectPosition: 'center 30%' } : undefined}
                   loading="lazy"
                 />
               </div>
