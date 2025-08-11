@@ -25,7 +25,7 @@ const Board = () => {
                 key={member.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
               >
-                <div className="relative h-64 overflow-hidden bg-gray-200" style={(member.id === "1" || member.id === "2" || member.id === "3") ? { backgroundImage: `url(${member.image})`, backgroundSize: 'cover', backgroundPosition: 'center top' } : undefined}>
+                <div className="relative h-64 overflow-hidden bg-gray-200" style={(member.id === "1") ? { backgroundImage: `url(${member.image})`, backgroundSize: 'cover', backgroundPosition: 'center 20%' } : (member.id === "2" || member.id === "3") ? { backgroundImage: `url(${member.image})`, backgroundSize: 'cover', backgroundPosition: 'center top' } : undefined}>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <h3 className="text-xl font-bold">{member.name}</h3>
