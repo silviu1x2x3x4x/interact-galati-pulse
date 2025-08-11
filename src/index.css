@@ -174,6 +174,7 @@
 /* Smooth scrolling pentru întreaga pagină */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* Custom scrollbar */

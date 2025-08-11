@@ -6,20 +6,18 @@ const HeroSection = () => {
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Image */}
+      <link 
+        rel="preload" 
+        href="/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png" 
+        as="image"
+      />
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png)'
+          backgroundImage: 'url(/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png)',
+          willChange: 'auto'
         }}
-      >
-        <img 
-          src="/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png" 
-          alt="Hero Background" 
-          className="hidden"
-          loading="eager"
-          decoding="async"
-        />
-      </div>
+      />
       
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
