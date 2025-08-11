@@ -28,9 +28,9 @@ const Directors = () => {
                 <div className="relative h-64 overflow-hidden bg-gray-200" style={
                   director.id === "10"
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
-                    : director.id === "6"
+                    : director.id === "6" || director.id === "8"
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center 30%' }
-                    : director.id === "7" || director.id === "8" || director.id === "9"
+                    : director.id === "7" || director.id === "9"
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                     : undefined
                 }>
