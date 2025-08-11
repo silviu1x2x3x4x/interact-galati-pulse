@@ -1,18 +1,5 @@
 
-import { useEffect } from "react";
-
 const HeroSection = () => {
-  useEffect(() => {
-    // Scroll automat în jos la încărcarea paginii
-    const timer = setTimeout(() => {
-      window.scrollTo({
-        top: window.innerHeight * 0.3,
-        behavior: 'smooth'
-      });
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
