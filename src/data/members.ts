@@ -80,7 +80,7 @@ export const directors: Member[] = [
     id: "9",
     name: "Diana Lepădatu Corina",
     position: "Director Fundraising",
-    description: "Diana Corina construiește și întreține relațiile strategice ale clubului cu donatorii și sponsorii. Cu o diplomație naturală și abilități de negociere, ea dezvoltă strategii de strângere de fonduri pe termen lung care susțin toate proiectele noastre. Diana Corina studiază relațiile internaționale și visează să contribuie la finanțarea proiectelor care au impact social pozitiv.",
+    description: "Sunt Diana, am 18 ani și sunt directorul fundraising al clubului Interact Galați pe mandatul 2025-2026. Empatia este superputerea mea, cred în oameni, în potențialul lor și în ideea că orice gest, oricât de mic, poate face o diferență reală și de aceea mă implic activ în acțiuni caritabile, mereu cu gândul la ce impact avem asupra comunității, împreună.",
     image: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
     background: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
   },
