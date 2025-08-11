@@ -30,6 +30,8 @@ const Directors = () => {
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                     : director.id === "6"
                     ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center 30%' }
+                    : director.id === "7"
+                    ? { backgroundImage: `url(${director.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }
                     : undefined
                 }>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
