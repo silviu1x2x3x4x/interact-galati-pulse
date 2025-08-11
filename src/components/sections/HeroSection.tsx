@@ -11,7 +11,15 @@ const HeroSection = () => {
         style={{
           backgroundImage: 'url(/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png)'
         }}
-      />
+      >
+        <img 
+          src="/lovable-uploads/c8e273ce-b654-4b51-9bff-6849a959b116.png" 
+          alt="Hero Background" 
+          className="hidden"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
       
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -29,6 +37,8 @@ const HeroSection = () => {
               src="/lovable-uploads/ee0c9ee3-a5e1-454b-b0a1-bc195031a9b9.png" 
               alt="Rotary Logo" 
               className="w-full h-full object-contain animate-spin-slow"
+              loading="eager"
+              decoding="async"
             />
           </div>
         </div>

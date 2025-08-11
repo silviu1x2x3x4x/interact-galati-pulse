@@ -24,7 +24,8 @@ const BoardSection = ({ scrollToTop }: BoardSectionProps) => {
                   src={member.image}
                   alt={`Fotografie ${member.name}`}
                   className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
+                  loading="eager"
+                  decoding="async"
                 />
                 <p className="text-sm md:text-base font-semibold text-gray-800">{member.name}</p>
                 <p className="text-xs md:text-sm text-gray-600">{member.position}</p>

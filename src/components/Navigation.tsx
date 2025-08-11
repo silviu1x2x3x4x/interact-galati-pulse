@@ -30,6 +30,8 @@ const Navigation = () => {
                 src="/lovable-uploads/ee0c9ee3-a5e1-454b-b0a1-bc195031a9b9.png" 
                 alt="Rotary Logo" 
                 className="w-full h-full object-contain animate-spin-slow"
+                loading="eager"
+                decoding="async"
               />
             </div>
             <span className="font-bold text-gray-900">Interact Galați</span>
