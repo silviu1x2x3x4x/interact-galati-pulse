@@ -20,12 +20,7 @@ const BoardSection = ({ scrollToTop }: BoardSectionProps) => {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
             {boardMembers.map((member, index) => (
               <div key={member.id} className="animate-fade-in-scroll" style={{ animationDelay: `${index * 0.1}s` }}>
-                <img
-                  src={member.image}
-                  alt={`Fotografie ${member.name}`}
-                  className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
+                <div className="w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mx-auto mb-4 shadow-lg transform hover:scale-105 transition-transform duration-300"></div>
                 <p className="text-sm md:text-base font-semibold text-gray-800">{member.name}</p>
                 <p className="text-xs md:text-sm text-gray-600">{member.position}</p>
               </div>
