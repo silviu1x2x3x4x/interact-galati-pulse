@@ -38,7 +38,7 @@ export const boardMembers: Member[] = [
     name: "Nicora Robert Alexandru",
     position: "Trezorier",
     description: "Robert Alexandru gestionează cu responsabilitate toate aspectele financiare ale clubului, de la bugetarea proiectelor la raportarea transparentă a cheltuielilor. Cu o formare în economie și o pasiune pentru antreprenoriat social, el se asigură că fiecare ban este folosit eficient pentru maximizarea impactului în comunitate. Robert Alexandru dezvoltă strategii de fundraising pentru susținerea proiectelor pe termen lung.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    image: "/lovable-uploads/f96bc3c9-f12a-4b68-9471-debd21dba245.png",
     background: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1026&q=80"
   },
   {
