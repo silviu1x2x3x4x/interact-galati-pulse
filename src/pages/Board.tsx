@@ -34,6 +34,7 @@ const Board = () => {
                       style={
                         member.id === "1" ? { objectPosition: 'center 20%' } :
                         (member.id === "2" || member.id === "3") ? { objectPosition: 'center top' } :
+                        member.id === "5" ? { objectPosition: 'center 30%' } :
                         { objectPosition: 'center center' }
                       }
                     />
