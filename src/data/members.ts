@@ -88,8 +88,8 @@ export const directors: Member[] = [
     id: "8",
     name: "Briana",
     position: "Ofițer IT",
-    description: "Hey! Numele meu este Silviu și sunt viitorul ofițer IT al clubului Interact Galați pentru mandatul 2025-2026. Sunt pasionat de tehnologie și mereu deschis la idei noi, cu dorința de a contribui la dezvoltarea clubului și de a-l duce la următorul nivel.",
-    image: "/lovable-uploads/48beed9a-5446-4632-b755-87de0043f9ad.png",
+    description: "Bună! Numele meu este Briana și am onoarea să ocup funcția de Ofițer IT a clubului Interact Galați pe mandatul 2025-2026. Încă de când am început voluntariatul în cadrul acestuia, mi-am dorit să îmi îmbin pasiunile academice cu dorința de a ajuta în club. Astfel, sper că vom putea defini un an marcat de inovație și tehnologie, fără a uita însă de latura care ne face umani și de puterea colaborării, ce conturează sufletul acestei organizații.",
+    image: "/lovable-uploads/briana-it-officer.jpg",
     background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80"
   }
 ];
