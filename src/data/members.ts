@@ -83,5 +83,13 @@ export const directors: Member[] = [
     description: "Sunt Diana, am 18 ani și sunt directorul fundraising al clubului Interact Galați pe mandatul 2025-2026. Empatia este superputerea mea, cred în oameni, în potențialul lor și în ideea că orice gest, oricât de mic, poate face o diferență reală și de aceea mă implic activ în acțiuni caritabile, mereu cu gândul la ce impact avem asupra comunității, împreună.",
     image: "/lovable-uploads/8317ee97-aa6c-41b5-b0af-ee37a22b83cc.png",
     background: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+  },
+  {
+    id: "8",
+    name: "Briana",
+    position: "Ofițer IT",
+    description: "Hey! Numele meu este Silviu și sunt viitorul ofițer IT al clubului Interact Galați pentru mandatul 2025-2026. Sunt pasionat de tehnologie și mereu deschis la idei noi, cu dorința de a contribui la dezvoltarea clubului și de a-l duce la următorul nivel.",
+    image: "/lovable-uploads/48beed9a-5446-4632-b755-87de0043f9ad.png",
+    background: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1125&q=80"
   }
 ];
