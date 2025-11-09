@@ -70,5 +70,15 @@ export const projects: Project[] = [
     background: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
     category: "Sănătate",
     impact: "600+ flori împărțite"
+  },
+  {
+    id: "7",
+    title: "Pink Out Sunday 2025",
+    description: "Ediția 2025 a campaniei de conștientizare a cancerului de sân",
+    fullDescription: "Pink Out Sunday revine în 2025! În continuarea misiunii noastre de conștientizare a importanței prevenției și diagnosticării precoce a cancerului de sân, ne pregătim pentru o nouă ediție a acestui proiect drag inimilor noastre. Cancerul de sân rămâne principala cauză a mortalității la femei în România, cu 7000 de noi cazuri anual. Prin distribuirea florilor roz și discuții cu comunitatea, ne dorim să motivăm cât mai multe femei să consulte specialiști și să fie atente la sănătatea lor. Culoarea roz simbolizează dragostea, feminitatea și optimismul - exact valorile pe care vrem să le transmitem. Alătură-te nouă în această campanie importantă! „Femeile sunt încărcate cu o putere pe care nu și-o cunosc.\" - Maya Angelou",
+    image: "/lovable-uploads/2c1eb08f-7381-4b9b-833a-6ca29be88c3a.png",
+    background: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+    category: "Sănătate",
+    impact: "Campanie planificată pentru 2025"
   }
 ];
